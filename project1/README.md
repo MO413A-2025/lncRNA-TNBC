@@ -39,7 +39,8 @@ O projeto busca responder às seguintes questões:
 
 Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
-GEO – GSE261989 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261989 | Dataset de RNA-seq da linhagem GEO – GSE261988 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261988 | Dataset complementar (ChIP-seq) do mesmo estudo
+GEO – GSE261989 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261989 | Dataset de RNA-seq da linhagem
+GEO – GSE261988 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261988 | Dataset complementar (ChIP-seq) do mesmo estudo
 GENCODE – Human Release 46 | https://www.gencodegenes.org/human/release_46.html | Base de anotação genômica humana (GRCh38, versão 46), incluindo genes codificantes e não codificantes (lncRNAs), usada para integrar a expressão diferencial com elementos regulatórios.
 
 # Modelo Lógico
