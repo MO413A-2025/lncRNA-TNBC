@@ -36,12 +36,12 @@ GEO – GSE261989 | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE261989
 GENCODE – Human Release 46 | https://www.gencodegenes.org/human/release_46.html | Base de anotação genômica humana (GRCh38, versão 46), incluindo genes codificantes e não codificantes (lncRNAs), usada para integrar a expressão diferencial com elementos regulatórios.
 
 # Modelo Lógico
-![Modelo Lógico de Grafos](images/modelo-logico-grafos.png)
+![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.png)
 
 # Metodologia
 Nosso estudo irá utilizar duas classes de tratamentos: perturbação genética por siRNA e tratamento químico.  
 
-![Tabela 1 - Condição e Tratamento por Categoria](images/tabela1.png)  
+![Tabela 1 - Condição e Tratamento por Categoria](assets/images/tabela1.png)  
 *Tabela 1 - Condição e Tratamento por Categoria. Fonte: Elaborado pelo autor.*  
 
 A análise será estruturada em quatro etapas principais:  
@@ -52,7 +52,7 @@ A análise será estruturada em quatro etapas principais:
 4. **Coexpressão e redes**: construção de redes de coexpressão com **WGCNA (v1.72-1, R)**.  
 5. **Enriquecimento funcional**: interpretação com **IPA (QIAGEN)** como ferramenta principal.  
 
-![Figura 1 - Visão Geral da metodologia](images/figura1.png)  
+![Figura 1 - Visão Geral da metodologia](assets/images/figura1.png)  
 *Figura 1 - Visão Geral da metodologia. Fonte: Elaborado pelo autor.*  
 
 # Ferramentas
