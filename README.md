@@ -6,7 +6,7 @@
 |--|--|--|
 | Carolina Albuquerque Massena Ribeiro  | 184298  | Bioinformatica |
 | Fabian Pietro de França Bram Sardagna  | 300000  | Computação |
-| Ian Loron  | XXXX  | XXXX |
+| Ian Loron de Almeida  | 198933  | Computação |
 | Laura Vieira Malachias  | 299117  | Biotecnologia / Biologia|
 | Luiz Henrique Galeoti de Lima  | 299868  | Computação|
 
