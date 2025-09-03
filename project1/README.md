@@ -8,7 +8,7 @@ Este projeto investiga o papel de RNAs longos não codificantes (lncRNAs) no câ
 
 # Slides
 
-[Slides para a entrega 1](https://docs.google.com/presentation/d/1DK-9vRPFY9caxmsc-w6zaFOdjhIhT--vUSJ0ziBtS54/edit?usp=sharing)
+[Slides para a entrega 1](https://docs.google.com/presentation/d/1ssPzplP1LAbi30HdSPz05EcOIv_j53ITwuSwgHwFA7A/edit?usp=sharing)
 
 [Ver documento do Projeto 1](assets/documents/projeto1.pdf)
 
