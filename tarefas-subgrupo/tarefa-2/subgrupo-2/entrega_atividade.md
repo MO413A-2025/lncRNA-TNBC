@@ -21,7 +21,7 @@
 **Limitações & trabalho futuro.** O benchmarking com verdades externas (ex: AUROC/AUPR para predição de links) **não é reportado**; algumas relações dependem de **curadoria manual** de diretrizes e literatura; **contexto (tipo de tumor, linha de terapia, dose/tempo)** pode ser parcialmente colapsado em rótulos de arestas; e práticas de **cadência de atualização/proveniência/versionamento** **não são detalhadas**. Esforços futuros devem incluir **avaliação específica para tarefas**, **granularidade de proveniência** e **modelagem de incerteza** para apoiar a tradução clínica.
 
 ## Modelo de Grafo Desenhado pela Equipe (Esquema)
-[![Diagrama do Grafo](./figuras/diagrama-grafo.svg)](./figuras/diagrama-grafo.svg)
+[![Diagrama do Grafo](./figuras/diagrama-grafo.png)](./figuras/diagrama-grafo.png)
 
 *Figura 1. Esquema do KG unificado desenhado pela equipe mostrando tipos de nós/arestas, direções e semântica.*
 
