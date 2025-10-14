@@ -22,7 +22,7 @@ O Petagraph aborda um problema persistente na bioinformática translacional: com
 **Limitações & trabalho futuro.** A evidência do Petagraph é **heterogênea** (ex: pontuações STRING vs. direções LINCS), o **contexto** (linhagem celular/dose/tempo) é parcialmente colapsado para tratabilidade, e **restrições de licença** (UMLS) governam a distribuição. Direções futuras incluem **benchmarks específicos para tarefas**, **modelagem de incerteza** e **automação de atualização incremental**.
 
 ## Modelo de Grafo Desenhado pela Equipe (Esquema)
-[![Diagrama do Grafo](./figuras/diagrama-grafo.svg)](./figuras/diagrama-grafo.svg)
+[![Diagrama do Grafo](./figuras/diagrama-grafo.png)](./figuras/diagrama-grafo.png)
 
 
 *Figura 1. Esquema do KG unificado desenhado pela equipe mostrando tipos de nós/arestas, direções e semântica.*
