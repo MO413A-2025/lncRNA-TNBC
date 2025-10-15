@@ -73,5 +73,5 @@ No trabalho de Karani et al. (2024) em uma tentativa de contornar a ausência de
 
 ## Referências
 1. Quan, X., Cai, W., Xi, C., Wang, C. and Yan, L. (2023). AIMedGraph: a comprehensive multi-relational knowledge graph for precision medicine. Database, 2023. doi:https://doi.org/10.1093/database/baad006.
-2. Karani R, Mehta J, Mistry J, Koladia H, Bhadane C (2024) Prediction of Disease-Gene Associations by an Ensemble of Knowledge Graph Completion. Indian Journal of Science and Technology 17(11): 1078-1086. doi:https ://doi.org/10.17485/IJST/v17i11.83
+2. Karani R, Mehta J, Mistry J, Koladia H, Bhadane C (2024) Prediction of Disease-Gene Associations by an Ensemble of Knowledge Graph Completion. Indian Journal of Science and Technology 17(11): 1078-1086. doi:https://doi.org/10.17485/IJST/v17i11.83
 3. Nimpf, S. and Keays, D.A. (2019). Why (and how) we should publish negative data. EMBO reports, 21(1). doi:https://doi.org/10.15252/embr.201949775.
