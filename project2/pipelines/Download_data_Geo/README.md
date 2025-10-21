@@ -1,0 +1,1 @@
+prefetch SRR28417311 e depois fasterq-dump SRR28417311 -O ./fastq_files --split-files --threads 8

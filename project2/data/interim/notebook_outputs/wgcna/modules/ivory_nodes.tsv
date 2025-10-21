@@ -1,0 +1,9 @@
+nodeName	gene_name	module	biotype	is_robust_lnc	is_hub	hub_function	highlight
+A2ML1	A2ML1	ivory	protein_coding	False	1		0
+BPIFB9P	BPIFB9P	ivory	transcribed_unitary_pseudogene	False	0		0
+ENSG00000214651	ENSG00000214651	ivory	processed_pseudogene	False	0		0
+ENSG00000223495	ENSG00000223495	ivory	processed_pseudogene	False	0		0
+ENSG00000253273	ENSG00000253273	ivory	unprocessed_pseudogene	False	0		0
+RPL29P9	RPL29P9	ivory	processed_pseudogene	False	0		0
+RPL36P3	RPL36P3	ivory	processed_pseudogene	False	0		0
+RPL5P13	RPL5P13	ivory	processed_pseudogene	False	0		0

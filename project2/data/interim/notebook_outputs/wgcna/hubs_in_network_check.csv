@@ -1,0 +1,41 @@
+module,hub_gene,present_in_network,function
+black,AADACP1,False,
+blue,EWSR1,True,Proteína de ligação ao RNA
+brown,RNF10,True,Regulação positiva da mielinização. Regulação positiva da transcrição pela RNA polimerase II. 
+cyan,ADD3-AS1,False,Encapsulamento de filamentos de actina com extremidade farpada
+darkgreen,AICDA,True,Regulação negativa da transposição; desaminação de citosina; edição de citidina para uridina; Desmetilação de DNA
+darkgrey,AHSP,True,Proteína estabilizadora da alfa-hemoglobina
+darkmagenta,C20orf173,True,Processo biossintético de gangliosídeo via lactosilceramida
+darkolivegreen,CCT4P1,True,
+darkorange,ACTE1P,False,
+darkred,ACTG1P13,True,
+darkturquoise,ACTL6B,True,Desenvolvimento do sistema nervoso; regulação da transcrição pela RNA polimerase II; acetilação da histona H4
+green,PHF20L1,True,Acetilação de histona; regulação da transcrição pela RNA polimerase II
+greenyellow,AURKAP2,True,
+grey60,AK4P6,True,
+ivory,A2ML1,True,
+lightcyan,ACTBP12,True,
+lightcyan1,ADAMTS20,True,Organização da matriz extracelular
+lightgreen,ABCC13,False,
+lightsteelblue1,ACER1,True,Processo biossintético da esfingosina e catabólico de ceramida
+lightyellow,ADAMTS19-AS1,False,Organização da matriz extracelular
+magenta,ANKFN1,True,Estabelecimento da orientação do fuso mitótico; regulação do estabelecimento da polaridade bipolar da célula
+mediumpurple3,APOL5,True,
+midnightblue,APOC4,True,homeostase dos triglicerídeos; regulação positiva do sequestro de triglicerídeos
+orange,BFSP2,True,
+orangered4,ACTG1P22,True,
+paleturquoise,ALOXE3P1,True,
+pink,ABCA9-AS1,False,transporte de lipídios
+plum1,ADRA1A,True,Sinalização célula-célula; regulação positiva da cascata MAPK; via de sinalização do receptor acoplado à proteína G ativadora da fosfolipase C; regulação positiva da concentração de íons de cálcio citosólico; regulação positiva da vasoconstrição; via de sinalização do receptor adrenérgico ativador da adenilato ciclase; regulação positiva da frequência cardíaca pela epinefrina-norepinefrina
+purple,ACRP1,True,
+royalblue,ABRAXAS1P1,True,
+saddlebrown,ALDH3B2,True,Processo metabólico do aldeído celular
+salmon,AOX3P,True,
+sienna3,ACTL7A,True,
+skyblue,AQP9,True,Transporte transmembrana de glicerol e água
+skyblue3,ADIPOQ-AS1,False,
+steelblue,ANKRD30A,True,
+tan,ACTP1,True,
+violet,ADARB2,True,Edição de adenosina para inosina e processamento de RNA
+white,ACTL7B,True,
+yellowgreen,ADGRF2P,True,

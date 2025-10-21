@@ -1,0 +1,6 @@
+Métrica,Original,Filtrado,Redução
+Total de arestas,65885909,2610819,96%
+Nós-lncRNA,9503,1210,87%
+Interações lncRNA,17599453,189738,99%
+Nós-Genes,16391,10863,34%
+Interações Genes,44278621,2084264,95%
