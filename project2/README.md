@@ -97,7 +97,7 @@ A análise foi estruturada em cinco etapas principais, utilizando técnicas de C
 
 ## Modelo Lógico
 
-![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.png)
+![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.jpeg)
 
 O modelo lógico representa um grafo de propriedades onde:
 - **Nós**: Genes (codificantes e não codificantes), tratamentos, módulos
