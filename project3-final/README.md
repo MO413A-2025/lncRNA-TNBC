@@ -51,7 +51,7 @@ O projeto busca responder às seguintes questões:
 
 Nosso estudo utilizou duas classes de tratamentos: perturbação genética por siRNA e tratamento químico (Tabela 1). Foram usadas duas bibliotecas distintas: uma com a técnica ChIP-Seq (GSE261988) e outra sem (GSE261989), ambas classificadas como Expression profiling by high throughput sequencing na plataforma Illumina NovaSeq 6000. Ambas foram baixadas usando SRA Toolkit (v3.2.1) do NCBI GEO.
 
-![Tabela 1: Condição e Tratamento por Categoria](assets/images/tabela1.png)
+![Tabela 1: Condição e Tratamento por Categoria](./assets/images/tabela1.png)
 
 A primeira etapa foi a integração das anotações dos lncRNA no arquivo de anotação genética do genoma humano (GRCh38), versão 46, ambos disponíveis no GENCODE, utilizando o programa AGAT, de acordo com a anotação de lncRNA descrita em Palma et al. (2025).
 
