@@ -57,7 +57,7 @@ A primeira etapa foi a integração das anotações dos lncRNA no arquivo de ano
 
 Para o pré-processamento das amostras, foi utilizada a pipeline nf-core/rnaseq (v3.13.0). A raw count matrix gerada durante o pré-processamento foi utilizada para a Análise de Expressão Diferencial entre controle e tratamento nas condições estudadas, usando a pipeline nf-core/differentialabundance (v1.2.0) (Ewels et al., 2020). A Figura 1 sumariza as etapas do pipeline.
 
-![Figura 1: Resumo do pipeline nf-core/differentialabundance](assets/images/Figura%201.png)
+![Figura 1: Resumo do pipeline nf-core/differentialabundance](assets/images/Figura1.png)
 
 O arquivo GTF fornecido é convertido em uma tabela estruturada contendo informações de anotação gênica. Verifica-se dos arquivos de entrada, incluindo anotações de amostra, o arquivo de contrastes e a matriz de contagens. Essa etapa garante consistência da análise. Processa-se as análises diferenciais em todos os contrastes especificados. (Opcional) executa-se de análise diferencial de um conjunto de genes. Gera-se gráficos de análises exploratória e diferencial. (Opcional) Constrói-se um Shiny app para interação completa dos resultados. Cria-se um relatório HTML baseado em markdown R, apresentando gráficos interativos e tabelas.
 
@@ -67,7 +67,7 @@ Subsequentemente, os dados normalizados foram utilizados para a construção e a
 
 As funções biológicas dos módulos significativos foram inferidas por meio de análises de enriquecimento e interpretação funcional utilizando o QIAGEN Ingenuity Pathway Analysis (IPA), que possibilita investigar vias canônicas associadas aos módulos identificados, prever redes regulatórias upstream (como fatores de transcrição, lncRNAs ou proteínas sinalizadoras potenciais responsáveis pelas alterações observadas), identificar doenças e funções moleculares relacionadas, além de explorar interações gene-gene ou gene-proteína em um contexto biológico amplo. Neste estudo, o IPA foi a ferramenta principal de enriquecimento funcional. No entanto, para garantir reprodutibilidade e acessibilidade, destacamos que existem alternativas open source, como o clusterProfiler (v4.8.3, R) com as bases públicas Reactome, KEGG e GO, além do Cytoscape (v3.10.2) para visualização de redes, que podem ser utilizadas por outros grupos de pesquisa sem acesso a plataformas proprietárias.
 
-![Figura 2: Visão Geral da metodologia](assets/images/Figura%202.png)
+![Figura 2: Visão Geral da metodologia](assets/images/Figura2.png)
 
 ## Recortes e Filtros de Rede (A–G)
 
@@ -184,13 +184,13 @@ O modelo lógico representa um grafo de propriedades onde:
 
 A análise de coexpressão gênica por meio do WGCNA revelou uma organização modular complexa que reflete a arquitetura regulatória subjacente à resposta do câncer de mama triplo-negativo (TNBC) ao estímulo do receptor de glicocorticoides (GR) e ao silenciamento de GATA6. Foram identificados 18.493 nós, dos quais 3.296 correspondem a lncRNAs e 14.128 a genes codificadores de proteína, distribuídos em 23 módulos de coexpressão. A proporção de lncRNAs em cada módulo acompanha, em geral, o tamanho dos módulos. Os quatro módulos mais populosos são: mediumpurple2: 984 lncRNAs e 3.335 genes codificadores de proteína; steelblue: 763 lncRNAs e 2.590 genes codificadores de proteína; green: 222 lncRNAs e 1.306 genes codificadores de proteína.
 
-![Figura 3. Heatmap das correlações entre os módulos obtidos pelo WGCNA e as condições experimentais](assets/images/Figura%203.png)
+![Figura 3. Heatmap das correlações entre os módulos obtidos pelo WGCNA e as condições experimentais](assets/images/Figura3.png)
 
 Além disso, foi avaliada a associação dos módulos com as condições experimentais (Figura 3). Os módulos marrom e lightcyan destacaram-se por apresentarem forte correlação positiva com o tratamento BRM014 após 24 horas, mantendo também elevada associação com a adição de DEX nesse mesmo ponto temporal. Em contraste, os módulos bisque4 e darkred exibiram correlação negativa com ambas as condições, sugerindo que agrupam genes potencialmente envolvidos em processos antagônicos às vias ativadas por esses compostos.
 
 Para esses módulos, foram identificados os genes hub (Figura 4), que representam os principais reguladores topológicos dentro de cada rede, e nenhum deles correspondeu a um lncRNA, indicando que esses transcritos não ocupam posições centrais de controle nas interações gênicas observadas.
 
-![Figura 4: Hubs por módulo](assets/images/Figura%204.png)
+![Figura 4: Hubs por módulo](assets/images/Figura4.png)
 
 ### Análise de Expressão Diferencial (DEG)
 
@@ -205,25 +205,25 @@ Foram realizados oito contrastes principais na análise diferencial de expressã
 - non_DEX vs DEX (overview): 124 up e 332 down
 - siCtl vs siGATA6 (overview): 30 up e 16 down
 
-![Figura 5: Volcano plots comparando os perfis de expressão gênica entre as condições com e sem silenciamento de GATA6](assets/images/Figura%205.png)
+![Figura 5: Volcano plots comparando os perfis de expressão gênica entre as condições com e sem silenciamento de GATA6](assets/images/Figura5.png)
 
-![Figura 6: Volcano plot do contraste non_DEX vs DEX (overview)](assets/images/Figura%206.png)
+![Figura 6: Volcano plot do contraste non_DEX vs DEX (overview)](assets/images/Figura6.png)
 
 ### Critérios de Corte de Rede
 
 O arquivo de edges gerado pelo WGCNA é composto por mais de 65 milhões de arestas, o que torna inviável sua visualização direta. Diante disso, foram testados diferentes critérios de corte com o objetivo de simplificar a representação gráfica sem comprometer a relevância biológica das conexões.
 
-![Figura 7: Resultados dos filtros A (esquerda) e B (direita)](assets/images/Figura%207.jpg)
+![Figura 7: Resultados dos filtros A (esquerda) e B (direita)](assets/images/Figura7.jpg)
 
 Os dois primeiros filtros, (A) e (B), resultaram no mesmo número de nós (18.493), porém com quantidades distintas de arestas. O critério Top 5 manteve 183.387 arestas, enquanto o corte de 95% resultou em 55.409.397 arestas. Essas diferenças refletiram-se em densidades de 0,001 e 0,3, respectivamente (Figura 7).
 
 O filtro (C) teve como objetivo preservar o nó GATA6 e sua vizinhança, resultando em uma rede composta por 4.895 nós e 10.473.102 arestas (Figura 8).
 
-![Figura 8: Representação da rede após a aplicação do filtro C](assets/images/Figura%208.jpg)
+![Figura 8: Representação da rede após a aplicação do filtro C](assets/images/Figura8.jpg)
 
 A combinação dos filtros D, E e F (filtro G) resultou em 21 nós e 109 edges, sendo 1 lncRNA SWINGN (Figura 9).
 
-![Figura 9: Resultado do filtro G - união dos filtros D, E e F](assets/images/Figura%209.jpg)
+![Figura 9: Resultado do filtro G - união dos filtros D, E e F](assets/images/Figura9.jpg)
 
 ## Evolução do Projeto
 
